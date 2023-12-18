@@ -4,7 +4,7 @@ import threading
 def send_request():
     try:
         while True:
-            response = requests.get("Your Terget Website Url")
+            response = requests.get("https://cfcybernews.eu")
             print("Request sent!")
     except:
         pass
